@@ -4,13 +4,13 @@ args = [
     '--language',
     '--category',
     '--name',
-    '--type',
+    '--type'
 ]
 
 
 def parse_arguments():
     parser = argparse.ArgumentParser(
-        description="A project/program mananger")
+        description="A project/program stats")
     parser.add_argument(
         '-l',
         '--language',
