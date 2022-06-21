@@ -8,5 +8,9 @@ path = os.getcwd()
 
 update(args, path)
 
-cmd = f'mkdir {args.projName}'
+cmd = f"mkdir {args.projName}"
 os.system(cmd)
+
+if "competitive-programming" in args.categoryName:
+    os.system(
+        f"cp /home/anandh/Documents/Projects/Python/mk-project/data/snippet.cpp test/solution1.cpp")
